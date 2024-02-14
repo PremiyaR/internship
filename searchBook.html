@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Search Books</title>
+    <style>
+        body { text-align: center; }
+        form { margin: 20px auto; }
+        label { font-weight: bold; }
+        input[type="text"] { padding: 8px; margin: 0 10px; }
+        button { padding: 8px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>Search Books</h1>
+    <form action="SearchBooksServlet">
+        <label for="author">Enter the author you want to search:</label>
+        <input type="text" id="author" name="author">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
